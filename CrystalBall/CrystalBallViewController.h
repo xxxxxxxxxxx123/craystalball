@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface CrystalBallViewController : UIViewController
-
+@property (strong, nonatomic) IBOutlet UILabel *predictionLabel;
 @end
